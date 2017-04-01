@@ -34,4 +34,16 @@ public class UbuntuOS extends LinuxOS {
         System.out.println("DEB");
     }
 
+    public void ubuntuDistro (String [] ubuntuDistroList) {
+
+        for (int i = 0; i < ubuntuDistroList.length; i++) {
+            String distroList =  ubuntuDistroList[i];
+            System.out.println(distroList);
+
+
+            
+        }
+
+    }
+
 }

@@ -49,6 +49,17 @@ public class MainOSClass {
         osxElCapitan.releaseDate();
         System.out.println();
 
+
+
+        System.out.println("< - - - - - - - Ubuntu List using Array - - - - - - - >");
+        String [] ubuntuDistroList = new String[2];
+        ubuntuDistroList[0] = "Ubuntu 10.4";
+        ubuntuDistroList[1] = "Ubuntu 10.10";
+
+        UbuntuOS ubuntuDistroListFa = new UbuntuOS();
+        ubuntuDistroListFa.ubuntuDistro(ubuntuDistroList);
+        System.out.println();
+
     }
 
 }
