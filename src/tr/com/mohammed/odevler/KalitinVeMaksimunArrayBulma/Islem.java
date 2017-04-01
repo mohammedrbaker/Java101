@@ -1,7 +1,5 @@
 package tr.com.mohammed.odevler.KalitinVeMaksimunArrayBulma;
 
-import java.lang.reflect.Array;
-
 /**
  * Created by Mohammed on 2/4/2017.
  */

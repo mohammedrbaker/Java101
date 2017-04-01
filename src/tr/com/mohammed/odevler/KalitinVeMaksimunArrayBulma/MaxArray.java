@@ -1,9 +1,5 @@
 package tr.com.mohammed.odevler.KalitinVeMaksimunArrayBulma;
 
-import com.sun.deploy.util.ArrayUtil;
-
-import java.util.Arrays;
-
 /**
  * Created by Mohammed on 1/4/2017.
  */
