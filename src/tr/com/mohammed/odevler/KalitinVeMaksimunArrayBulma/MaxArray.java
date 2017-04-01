@@ -11,10 +11,8 @@ import java.util.Arrays;
 public class MaxArray {
 
 
-    public void maxDegerBul(int[][][] arrayElemani) {
-        int maxK = 0;
-        int maxI = 0;
-        int maxJ = 0;
+    public int maxDegerBul(int[][][] arrayElemani) {
+
         int temp = 1;
         for (int i = 0; i < arrayElemani.length; i++) {
             for (int j = 0; j < arrayElemani.length; j++) {
@@ -31,12 +29,12 @@ public class MaxArray {
 
         }
 
-        System.out.println("Max is: " + temp);
+        //System.out.println("Max is: " + temp);
 
-
+        return temp;
     }
 
     ;
 
-    //return int max deger
+
 }

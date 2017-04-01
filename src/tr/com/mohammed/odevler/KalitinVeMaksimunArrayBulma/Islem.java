@@ -16,7 +16,8 @@ public class Islem {
 
 
         AltSinifArray altSinifArray = new AltSinifArray();
-        altSinifArray.maxDegerBul(ucBoyutluArray);
+        int max = altSinifArray.maxDegerBul(ucBoyutluArray);
+        System.out.println("Max number is: " + max);
 
 
     }
